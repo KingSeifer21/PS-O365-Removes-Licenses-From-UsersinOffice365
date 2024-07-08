@@ -6,7 +6,7 @@
 #Get-MsolUser -UserPrincipalName "Username" value under license must be set on False. This way you know that the script worked..or check the Office 365 Portal
 #The script will return a Licenses information so you can see which license the person have active
 #You have to adjust the script with your own tenant domain name!
-#KingSeifer21 System Administrator\DevOps 18-12-2017, Last update 20-12-2017
+#Amanuyl Ok System Administrator\DevOps 18-12-2017, Last update 20-12-2017
 
 $Usercredential = Get-Credential
 Connect-MsolService -AzureEnvironment AzureCloud -Credential $Usercredential
